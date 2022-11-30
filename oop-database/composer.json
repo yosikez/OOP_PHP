@@ -1,0 +1,16 @@
+{
+    "name": "php_kak_romani/oop-database",
+    "description": "Mini Framework",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Yosi Kesuma",
+            "email": "yosikez@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "OOP\\App\\": "App"
+        }
+    }
+}

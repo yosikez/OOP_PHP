@@ -1,0 +1,12 @@
+RewriteEngine On
+
+
+RewriteRule ^show/([0-9]+) index.php?page=show&id=$1 [NC,L]
+RewriteRule ^edit/([0-9]+) index.php?page=edit&id=$1 [NC,L]
+RewriteRule ^delete/([0-9]+) index.php?page=delete&id=$1 [NC,L]
+RewriteRule ^add index.php?page=add [NC,L]
+
+
+ErrorDocument 500 /php_kak_romani/oop-database/500.html
+ErrorDocument 404 /php_kak_romani/oop-database/404.html
+
